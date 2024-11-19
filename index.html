@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udit Pandey</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About Me</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+        ☰
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          I am a passionate developer, building efficient and scalable
+          solutions. Let’s build something amazing together!
+        </p>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+          <a
+            href="https://twitter.com/UditPan09603880"
+            class="icon twitter"
+            aria-label="Twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/udit-pandey-7b5808205/?originalSubdomain=in"
+            class="icon linkedin"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/UditNova"
+            class="icon github"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://discordapp.com/users/Jason_34#5167"
+            class="icon discord"
+            aria-label="Discord"
+          >
+            <i class="fa-brands fa-discord"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <img
+          src="images/hero_section_illustration.png"
+          alt="Hero Illustration"
+        />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-react"></i>
+          <span>React</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-node-js"></i>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-java"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-git-alt"></i>
+          <span>Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+      <h2>My <span>Experience</span></h2>
+      <div class="experience-container">
+        <!-- Experience Card 1 -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <img src="icons/google.png" alt="Google Icon" />
+          </div>
+          <div class="experience-content">
+            <h3>Java Developer Intern at iNeuron.ai</h3>
+            <span class="duration">Nov 2024 - Present</span>
+            <p>
+              Developing e-commerce applications using Java, Spring Boot, and
+              JPA.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience Card 2 -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <img src="icons/youtube.png" alt="YouTube Icon" />
+          </div>
+          <div class="experience-content">
+            <h3>Backend Developer at GeekBlogs</h3>
+            <span class="duration">Jan 2024 - July 2024</span>
+            <p>
+              Created a blogging platform with JavaEE, MySQL, and Hibernate.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience Card 3 -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <img src="icons/apple.png" alt="Apple Icon" />
+          </div>
+          <div class="experience-content">
+            <h3>Personal Project: Caku</h3>
+            <span class="duration">2023</span>
+            <p>
+              Developed an e-commerce site for bakeries using Java, Spring MVC,
+              and Thymeleaf.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I'm a passionate, self-proclaimed designer who specializes in
+            full-stack development. With a strong background in technologies
+            like <b>React</b> & <b>Node.js</b>, I am very enthusiastic about the
+            technical and visual aspects of digital products. I focus on
+            creating user experiences, pixel-perfect design, and writing clean,
+            readable, highly efficient code.
+          </p>
+          <p>
+            My goal is to combine the art of design with the skill of
+            programming to deliver high-quality projects. Always eager to learn
+            new technologies and constantly pushing myself to improve, I thrive
+            on turning challenges into opportunities for growth.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="images/about_me_pic.png" alt="About Me Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section class="my-projects" id="projects">
+      <h2>My <span>Projects</span></h2>
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="images/my_project1.crop.png"
+              alt="Crypto Screener Application"
+            />
+          </div>
+          <div class="project-content">
+            <h3>01</h3>
+            <h4>Crypto Screener Application</h4>
+            <p>
+              I am Even Shah. Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text since the 1500s.
+            </p>
+            <a href="#" class="project-link" target="_blank">↗</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="alternate-project-card">
+          <div class="project-image">
+            <img
+              src="images/my_project02.crop.png"
+              alt="Euphoria - Ecommerce Website Template"
+            />
+          </div>
+          <div class="project-content">
+            <h3>02</h3>
+            <h4>Euphoria - Ecommerce (Apparels) Website Template</h4>
+            <p>
+              I am Even Shah. Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text since the 1500s.
+            </p>
+            <a href="#" class="project-link" target="_blank">↗</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="images/my_project03.crop.png"
+              alt="Blog Website Template"
+            />
+          </div>
+          <div class="project-content">
+            <h3>03</h3>
+            <h4>Blog Website Template</h4>
+            <p>
+              I am Even Shah. Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text since the 1500s.
+            </p>
+            <a href="#" class="project-link" target="_blank">↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <h2>What People Say<span> About Me</span></h2>
+      <div class="testimonials-container">
+        <!-- Testimonial Card 1 -->
+        <div class="testimonial-card">
+          <p>
+            "Udit is an excellent developer with a strong grasp of backend
+            technologies. His dedication to his work is truly impressive!"
+          </p>
+          <div class="author-info">
+            <img src="images/client1.png" alt="Client Photo" />
+            <div>
+              <h4>John Doe</h4>
+              <p>Software Engineer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial Card 2 -->
+        <div class="testimonial-card">
+          <p>
+            "Working with Udit was a seamless experience. He delivered
+            high-quality code on time and exceeded expectations!"
+          </p>
+          <div class="author-info">
+            <img src="images/client2.png" alt="Client Photo" />
+            <div>
+              <h4>Jane Smith</h4>
+              <p>Project Manager</p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial Card 3 -->
+        <div class="testimonial-card">
+          <p>
+            "Udit's problem-solving skills and ability to adapt are top-notch.
+            Highly recommended!"
+          </p>
+          <div class="author-info">
+            <img src="images/client1.png" alt="Client Photo" />
+            <div>
+              <h4>Emily Brown</h4>
+              <p>UX Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <!-- Left Side: Form -->
+        <div class="form-container">
+          <form class="contact-form">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="url" placeholder="Your website (if exists)" />
+            <textarea
+              placeholder="How can I help?"
+              rows="4"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Get in Touch</button>
+          </form>
+
+          <!-- Social Media Icons -->
+          <div class="social-icons">
+            <a href="https://github.com/UditNova" class="icon"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/udit-pandey-7b5808205/?originalSubdomain=in"
+              class="icon"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/UditPan09603880" class="icon"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Right Side: Contact Info -->
+        <div class="contact-info">
+          <h2>Let's <span>talk</span> for Something special</h2>
+          <p>
+            I seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences.
+          </p>
+          <p class="email">YourEmail@gmail.com</p>
+          <p class="phone">1234567890</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2019-2023 Personal | Made in Figma</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
